@@ -1,7 +1,19 @@
 <resources>
-    <string name="app_name">My_counter</string>
+    <string name="app_name">Counter App</string>
     <string name="dec">-</string>
     <string name="zero">0</string>
     <string name="inc">+</string>
     <string name="my_counter">My Counter</string>
+    <string name="send_back">send back</string>
+    <string name="open_main_activity_button_label">open main activity</string>
+    <string name="explicit_intent_heading">Explicit Intent</string>
+    <string name="implicit_intent_heading">Implicit Intent</string>
+    <string name="textview">TextView</string>
+    <string name="sending_and_receiving_data">sending and receiving data</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="share_text">Share Text</string>
+    <string name="open_webpage">Open Webpage</string>
+    <string name="data">Data</string>
+    <string name="go">GO</string>
+    <string name="send">send</string>
 </resources>
