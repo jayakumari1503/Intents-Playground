@@ -1,6 +1,6 @@
 # Intents-Playground
 I have made an application to send custom objects through intents.
-You can also see it live downloading [this apk](https://github.com/jayakumari1503/Intents-Playground/blob/master/app/build/outputs/apk/debug/intentPlayground.apk)
+You can also see it live downloading [this apk](https://github.com/jayakumari1503/Intents-Playground/blob/master/app/build/outputs/apk/debug/app-debug.apk)
 
 # Preview of the Application
 ![Screenshot_2021-04-30-15-11-45-12_3678c984e1558d49b6f7ed52d3cadebb](https://user-images.githubusercontent.com/78533628/116744432-ee111a00-aa17-11eb-8094-ca0e96e9291a.jpg)
