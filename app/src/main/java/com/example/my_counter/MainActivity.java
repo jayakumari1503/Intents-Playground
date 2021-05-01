@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        
+        //To create layout using layout inflater
         b = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(b.getRoot());
 
@@ -25,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         getInitialCount();
     }
 
-
+    /**
+    *Get the data from the starter activity
+    */
     private void getInitialCount() {
         Bundle bundle = getIntent().getExtras();
 
@@ -40,12 +43,15 @@ public class MainActivity extends AppCompatActivity {
 
         b.qty.setText(String.valueOf(qty));
     }
-
-
-    private void setupEventHandlers() {
+    
+    /**
+    *Trigger Event handlers to listen the actions
+    */
+        private void setupEventHandlers() {
         b.incBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Calling inrease function
                 incQty();
             }
         });
@@ -53,26 +59,38 @@ public class MainActivity extends AppCompatActivity {
         b.decBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Calling decrease function
                 decQty();
             }
         });
     }
 
+    /**
+    *To decrease the quantity and update the result in text view
+    */
     public void decQty() {
         b.qty.setText(--qty + " ");
     }
 
+    /**
+    *To increase the quantity and update the result in text view
+    */
     public void incQty() {
         b.qty.setText(++qty + " ");
     }
 
+    /**
+    *To send the final count back to main activity
+    *@param view button view which is triggered
+    
     public void sendDataBack(View view) {
         if (qty >= minVal && qty <= maxVal) {
             // Send the data to the starter activity
             Intent intent = new Intent();
             intent.putExtra(Constants.FINAL_COUNT, qty);
             setResult(RESULT_OK, intent);
-
+               
+            //close the activity
             finish();
         }
         // When not in range
