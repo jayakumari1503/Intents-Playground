@@ -1,0 +1,15 @@
+com/example/my_counter/MainActivity.java
+ com.example.my_counter.MainActivity
+ com.example.my_counter.MainActivity$1
+ com.example.my_counter.MainActivity$2
+com/example/my_counter/databinding/ActivityMainBinding.java
+ com.example.my_counter.databinding.ActivityMainBinding
+com/example/my_counter/Constants.java
+ com.example.my_counter.Constants
+com/example/my_counter/IntentsPlaygroundActivity.java
+ com.example.my_counter.IntentsPlaygroundActivity
+ com.example.my_counter.IntentsPlaygroundActivity$1
+com/example/my_counter/databinding/ActivityIntentsPlaygroundBinding.java
+ com.example.my_counter.databinding.ActivityIntentsPlaygroundBinding
+com/example/my_counter/BuildConfig.java
+ com.example.my_counter.BuildConfig
