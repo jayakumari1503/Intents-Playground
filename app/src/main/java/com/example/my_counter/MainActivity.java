@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
     /**
     *To send the final count back to main activity
     *@param view button view which is triggered
+    */
     
     public void sendDataBack(View view) {
         if (qty >= minVal && qty <= maxVal) {
